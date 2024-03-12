@@ -7,7 +7,7 @@ public class factorial_of_n {
             return 1;
         }
         int fn_1= findFactorial(n-1);
-        int fn= n*findFactorial(n-1);
+        int fn= n*fn_1;
         return fn;
     }
     public static void main(String[] args) {
