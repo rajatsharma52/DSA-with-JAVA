@@ -15,7 +15,7 @@ public class add_first_in_linkedlist {
     public static Node head;
     public static Node tail;
 
-    //Method for addFirst
+    //Method or function for addFirst
     public void addFirst(int data){
         //Step1: crate a new node
         Node newNode= new Node(data);
